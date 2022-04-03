@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NHA Huiswerk Opgave Les 15</title>
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+                <h1>NHA Huiswerk les 15</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn Cv</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="vraag.html">Vraagje</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h3>Contacteer mij:</h3>
+            <form id="contactform" method="post" action="bewaarinfo.php">
+                        <label for="voornaam">Voornaam:</label>
+                            <input type="text" id="voornaam" name="voornaam" value="" maxlenght="" placeholder="">
+                        <label for="achternaam">Achternaam:</label>
+                            <input type="text" id="achternaam" name="achternaam" value="" maxlenght="" placeholder="">
+                        <label for="email">E-mailadres:</label>
+                            <input type="email" id="email" name="email" value="" maxlenght="" placeholder="">
+                        <label for="tel">Telefoonnummer:</label>
+                            <input type="tel" id="telefoonnummer" name="telefoonnummer" value="" maxlenght="" placeholder="">
+                        <input type="radio" name="geslacht" value="Man">Man &#160; &#160;
+                        <input type="radio" name="geslacht" value="Vrouw">Vrouw &#160; &#160;
+                        <input type="radio" name="geslacht" value="X" checked>X
+                        <label for="bericht"><br><br>Uw bericht:</label>
+                        <textarea name="" maxlenght="" placeholder=""></textarea>
+                    <button type="submit" name="" value="verzendknop">Verzend</button>
+            </form>
+        </div>
+        <footer>
+            <p>© Steven Vandevelde 2022</p>
+        </footer>
+
+
+    </body>
